@@ -1,0 +1,145 @@
+#container {
+  width: 1100px;
+  margin: 0 auto;
+  background-color: #E8DCC2;
+}
+body {
+  font-family: 'Comic Sans MS', cursive;
+  background-color: #F4E4CC;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #B37C51;
+   padding: 40px 20px;
+   width: 100%;
+   box-sizing: border-box;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   margin: 0;
+}
+footer {
+  background-color: #F4E4CC;
+  font-size: 12px;
+  margin-top: 30px;
+  text-align: center;
+
+}
+.two-column1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 40px;
+}
+.logo img {
+    width: 85px;
+    height: 75px;
+    border-radius: 50px;
+    position: absolute;
+    left: 150px;
+    top: 10px;
+  }
+  .active {
+      text-decoration: underline;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+      font-size: 25px;
+      margin: 0 20px;
+  }
+  nav ul li a {
+      text-decoration: none;
+      color: black;
+      font-family: 'Comic Sans MS', cursive;
+  }
+ .img-one {
+   border-radius: 30px;
+   width: 250px;
+   margin-left: 130px;
+   margin-top: 50px;
+ }
+ .main-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+
+.left-column2, .right-column2 {
+    width: 45%;
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-column2 img, .right-column2 img {
+    width: 100%;
+    margin-top: 20px;
+}
+.img-two {
+  border-radius: 30px;
+  height: 350px;
+  margin-left: 80px;
+}
+.img-three {
+  border-radius: 30px;
+  height: 400px;
+  margin-left: 80px;
+}
+.insta-logo {
+  width: 50px;
+  height: auto;
+  margin-top: 10px;
+}
+.footer-paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: black;
+}
+h2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.questions {
+  margin-left: 30px;
+  display: flex;
+  font-weight: bold;
+}
+.answers {
+  margin-left: 30px;
+  margin-right: 20px;
+}
+.image-box {
+    width: 200px;
+    height: 150px;
+}
+.social-logo {
+    gap: 15px;
+    margin-left: 2px;
+    justify-content: center;
+    margin-top: 25px;
+}
+.social-icons a {
+  display: inline-block;
+}
+.img-four {
+  border-radius: 30px;
+  width: 250px;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+.img-five {
+  border-radius: 30px;
+  height: 350px;
+  margin-left: 80px;
+}
